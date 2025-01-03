@@ -47,14 +47,12 @@ fn main() {
     let mut msg: String = "Hello Rust".to_string();
     msg += "!";
     println!("{msg}");
-    
-    // 
+
+    //
     let lang = "Rust";
     let emoji = "🦀";
     let msg = format!("Hello {lang} {emoji}");
     println!("{msg}");
-
-     
 
     // // String - growable, heap-allocated data structure
     // let mut s = String::new();
