@@ -47,11 +47,10 @@ fn main() {
     let p0 = Point { x: 1.0, y: 1.0 };
     let p1 = Point { x: 2.0, ..p0 };
     println!("{:?}", p1);
-    
+
     // Update
     let mut p = Point { x: 0.0, y: 0.0 };
     p.x += 1.0;
     p.y += 1.0;
     println!("{:?}", p);
-
 }
